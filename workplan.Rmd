@@ -42,11 +42,12 @@ We plan to utilize the followig data sets:
 * https://data.worldbank.org
 * http://www.who.int/healthinfo/statistics/en/
 * https://worldhappiness.report/
-* environmental data?
+* https://www.who.int/airpollution/data/cities/en/ WHO Global Ambient Air Quality Database (update 2018)
 * earthquake data?
 * https://www.cafonline.org/about-us/publications/2019-publications/caf-world-giving-index-10th-edition
 * https://www.weforum.org/reports/global-competitiveness-report-2019
 * https://report.startupblink.com
+
 
 ## How we plan to answer the questions
 
