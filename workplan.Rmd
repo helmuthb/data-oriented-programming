@@ -1,0 +1,79 @@
+---
+title: "Plan DOPP Exercise 3"
+author: 
+  - "Helmuth Breitenfellner, 8725866"
+  - "László Király, 9227679"
+  - "Lukas Steindl, 11743494"
+  - "Gerald Weber, 0125536"
+date: "12/13/2019"
+output: pdf_document
+---
+
+# Chosen Topic
+
+We have chosen topic #16: _Change of City Quality of Life Rankings over Time_
+
+# Plan of Action
+
+## Questions to be answered
+
+Following the task description, we aim to find answers to the following questions:
+
+* How do the rankings change over time?
+* How do these rankings correlate with each other for one specific year?
+* How do they correlate with other statistics about the countries in which
+  the cities are located?
+  How do they correlate with quality of life rankings of the country
+  in which the cities are located?
+* What are the determining characteristics for livability of a city?
+  How do they correlate with cost of living?
+
+## Data Sets used
+
+We plan to utilize the followig data sets:
+
+* https://mobilityexchange.mercer.com/Insights/quality-of-living-rankings
+* http://www.eiu.com/topic/liveability
+* https://www.cia.gov/library/publications/the-world-factbook/
+* https://www.numbeo.com/quality-of-life/rankings_by_country.jsp
+* https://www.usnews.com/news/best-countries/quality-of-life-rankings
+* https://www.ncdc.noaa.gov/climate-information/international
+* https://stats.oecd.org
+* https://data.worldbank.org
+* http://www.who.int/healthinfo/statistics/en/
+* https://worldhappiness.report/
+
+## How we plan to answer the questions
+
+### Rankings over time
+
+We use statistical models (ARIMA et al.) for analysing the time changes of indices
+and rankings over time.
+
+### Ranking correlation
+
+We use correlation analysis (cross-correlation coefficient, etc.) to identify how
+far the rankings correlate with each other.
+
+For this we will first identify the subset of data (cities) which is common among the rankings.
+
+### Correlation with Country Statistics
+
+We have listed quite a few data sources with country statistics.
+At the end we will first evaluate the data sources and select a subset from them.
+Then we will match the countries with their cities and use correlation analysis.
+
+Similarly we will use country level rankings on quality of life.
+
+### Deterministing characteristics; Cost of Living
+
+This will be done with cross-correlation.
+
+## Task sharing in the Team
+
+The data sets are first evaluated and collected,
+for this they are distributed among the four project team members.
+
+This is planned to be finalized till 31 December 2019.
+
+Afterwards the questions are shared among the team members.
