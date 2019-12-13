@@ -44,6 +44,9 @@ We plan to utilize the followig data sets:
 * https://worldhappiness.report/
 * environmental data?
 * earthquake data?
+* https://www.cafonline.org/about-us/publications/2019-publications/caf-world-giving-index-10th-edition
+* https://www.weforum.org/reports/global-competitiveness-report-2019
+* https://report.startupblink.com
 
 ## How we plan to answer the questions
 
