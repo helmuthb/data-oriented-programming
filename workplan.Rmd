@@ -42,6 +42,8 @@ We plan to utilize the followig data sets:
 * https://data.worldbank.org
 * http://www.who.int/healthinfo/statistics/en/
 * https://worldhappiness.report/
+* environmental data?
+* earthquake data?
 
 ## How we plan to answer the questions
 
