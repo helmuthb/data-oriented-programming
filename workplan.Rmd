@@ -7,11 +7,9 @@ author:
   - "Gerald Weber, 0125536"
 date: "12/13/2019"
 output: pdf_document
+subtitle: "Topic 16 - Change of City Quality of Life Rankings over Time"
+classoption: "twocolumn"
 ---
-
-# Chosen Topic
-
-We have chosen topic #16: _Change of City Quality of Life Rankings over Time_
 
 # Plan of Action
 
@@ -53,8 +51,7 @@ We plan to utilize the followig data sets:
 
 ### Rankings over time
 
-We use statistical models (ARIMA et al.) for analysing the time changes of indices
-and rankings over time.
+Explorative methods and visualization.
 
 ### Ranking correlation
 
@@ -73,7 +70,7 @@ Similarly we will use country level rankings on quality of life.
 
 ### Deterministing characteristics; Cost of Living
 
-This will be done with cross-correlation.
+This will be done with correlation testing and visualisation.
 
 ## Task sharing in the Team
 
@@ -83,3 +80,8 @@ for this they are distributed among the four project team members.
 This is planned to be finalized till 31 December 2019.
 
 Afterwards the questions are shared among the team members.
+
+## Open Issues
+
+- Access to private datasets (e.g. Mercer)
+
