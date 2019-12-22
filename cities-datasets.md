@@ -7,11 +7,11 @@
 | List of cities or metropolitan areas by GDP | mixed | mixed | html | https://en.wikipedia.org/wiki/List_of_cities_or_metropolitan_areas_by_GDP |
 | Cities GDP | mixed  | mixed | html | http://www.worldcitiescultureforum.com/data/gdp-pppmillion |
 | City Regions (population, gdp,...) | 2001 | 2016 | excel, csv, api | https://stats.oecd.org/Index.aspx?DataSetCode=CITIES |
-|  |  |  |  |  |
+| Geo Coordinates | current  | current | excel, xml | https://whc.unesco.org/en/syndication |
 |  |  |  |  |  |
 |  |  |  |  |  |
 
 
 ideas:
 - gdp datasets contain mixed years! suggestion: "normalize" by adding percentage of change over years of country or region gdp
-- similar to earthquakes, new feature: number of cultural heritages (https://whc.unesco.org/en/list/ geo coordinates have to scraped from detail pages) within the vicinity (e.g. 50 km radius) of the city
+- similar to earthquakes, new feature: number of cultural heritages (https://whc.unesco.org/en/list/) within the vicinity (e.g. 50 km radius) of the city
