@@ -11,4 +11,7 @@
 |  |  |  |  |  |
 |  |  |  |  |  |
 
-gdp datasets contain mixed years! suggestion: "normalize" by adding percentage of change over years of country or region gdp
+
+ideas:
+- gdp datasets contain mixed years! suggestion: "normalize" by adding percentage of change over years of country or region gdp
+- similar to earthquakes, new feature: number of cultural heritages (https://whc.unesco.org/en/list/ geo coordinates have to scraped from detail pages) within the vicinity (e.g. 50 km radius) of the city
