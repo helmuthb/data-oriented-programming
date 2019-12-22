@@ -9,7 +9,7 @@
 | City Regions (population, gdp,...) | 2001 | 2016 | excel, csv, api | https://stats.oecd.org/Index.aspx?DataSetCode=CITIES |
 | Geo Coordinates of World Heritages | current  | current | excel, xml | https://whc.unesco.org/en/syndication |
 | Creative Cities | current  | current | pdf | https://en.unesco.org/creative-cities/sites/creative-cities/files/16_pages_villes_creatives_uk_bd.pdf |
-|  |  |  |  |  |
+| City Prosperity Index | mixed  | 2016  | excel | http://urbandata.unhabitat.org/download-raw-data |
 
 
 ideas:
