@@ -7,8 +7,8 @@
 | List of cities or metropolitan areas by GDP | mixed | mixed | html | https://en.wikipedia.org/wiki/List_of_cities_or_metropolitan_areas_by_GDP |
 | Cities GDP | mixed  | mixed | html | http://www.worldcitiescultureforum.com/data/gdp-pppmillion |
 | City Regions (population, gdp,...) | 2001 | 2016 | excel, csv, api | https://stats.oecd.org/Index.aspx?DataSetCode=CITIES |
-| Geo Coordinates | current  | current | excel, xml | https://whc.unesco.org/en/syndication |
-|  |  |  |  |  |
+| Geo Coordinates of World Heritages | current  | current | excel, xml | https://whc.unesco.org/en/syndication |
+| Creative Cities | current  | current | pdf | https://en.unesco.org/creative-cities/sites/creative-cities/files/16_pages_villes_creatives_uk_bd.pdf |
 |  |  |  |  |  |
 
 
