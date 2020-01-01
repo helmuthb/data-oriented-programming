@@ -4,6 +4,7 @@
 | Cost of Living Index  | na  | current  | html |  https://www.expatistan.com/cost-of-living/index |
 | The 48 best cities in the world (Time Out Index survey) | na  |  2019 | html  | https://www.timeout.com/things-to-do/best-cities-in-the-world  |
 | World City Populations 2019  | na | 2019  | csv/json  | http://worldpopulationreview.com/world-cities/  |
+| World Urbanization Prospects (Population Dynamics) | 1950 | 2018 (2030) | xls | https://population.un.org/wup/Download/|
 | List of cities or metropolitan areas by GDP | mixed | mixed | html | https://en.wikipedia.org/wiki/List_of_cities_or_metropolitan_areas_by_GDP |
 | Cities GDP | mixed  | mixed | html | http://www.worldcitiescultureforum.com/data/gdp-pppmillion |
 | **City Regions (population, gdp,...)** | 2001 | 2016 | excel, csv, api | https://stats.oecd.org/Index.aspx?DataSetCode=CITIES |
@@ -23,3 +24,4 @@ ideas:
 - gdp datasets contain mixed years! suggestion: "normalize" by adding percentage of change over years of country or region gdp
 - similar to earthquakes, new feature: number of cultural heritages (https://whc.unesco.org/en/list/) within the vicinity (e.g. 50 km radius) of the city
 - calculate % of green space by taking `Green area per capita (square meters per capita)` and `City Regions (population, gdp,...)`->Metropolitan areas->Geographic->Variables:Metropolitan Area area core land area
+- geodata is also contained in `World Urbanization Prospects (Population Dynamics)`
