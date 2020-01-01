@@ -15,6 +15,7 @@
 | Innovation Cities™ Index 2019 : Global| | current | html | https://www.innovation-cities.com/index-2019-global-city-rankings/18842/ |
 | Global Cities' AI Readiness Index |  | current | html | https://www.oliverwymanforum.com/city-readiness/global-cities-ai-readiness-index-2019.html |
 | **Global Power City Index (GPCI)** | 2008-2017 | 2018, 2019 | pdf | http://www.mori-m-foundation.or.jp/english/ius2/gpci2/index.shtml |
+| **Cost of living in cities around the world** | | 2018 | html, xlsx | https://www.ubs.com/microsites/prices-earnings/en/explore/?split=false |
 
 ideas:
 - gdp datasets contain mixed years! suggestion: "normalize" by adding percentage of change over years of country or region gdp
