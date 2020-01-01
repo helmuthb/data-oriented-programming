@@ -4,7 +4,7 @@
 | Cost of Living Index  | na  | current  | html |  https://www.expatistan.com/cost-of-living/index |
 | The 48 best cities in the world (Time Out Index survey) | na  |  2019 | html  | https://www.timeout.com/things-to-do/best-cities-in-the-world  |
 | World City Populations 2019  | na | 2019  | csv/json  | http://worldpopulationreview.com/world-cities/  |
-| **World Urbanization Prospects (Population Dynamics) includes geodata** | 1950 | 2018 (2030) | xls | https://population.un.org/wup/Download/|
+| **World Urbanization Prospects (Population Dynamics)** | 1950 | 2018 (2030) | xls | https://population.un.org/wup/Download/|
 | List of cities or metropolitan areas by GDP | mixed | mixed | html | https://en.wikipedia.org/wiki/List_of_cities_or_metropolitan_areas_by_GDP |
 | Cities GDP | mixed  | mixed | html | http://www.worldcitiescultureforum.com/data/gdp-pppmillion |
 | **City Regions (population, gdp,...)** | 2001 | 2016 | excel, csv, api | https://stats.oecd.org/Index.aspx?DataSetCode=CITIES |
