@@ -12,6 +12,9 @@
 | City Prosperity Index | mixed  | 2016  | excel | http://urbandata.unhabitat.org/download-raw-data |
 | Mercer Index (Quality of Living Survey) | 2010, 2012, 2014, 2015, 2016 | 2018, 2019 | html | https://en.wikipedia.org/wiki/Mercer_Quality_of_Living_Survey |
 | Tripindex | | 2013| jpg(!) | https://www.tripadvisor.com/InfoCenter-a_ctr.TripIndex__5F__Cities__5F__2013__5F__US |
+| Innovation Cities™ Index 2019 : Global| | current | html | https://www.innovation-cities.com/index-2019-global-city-rankings/18842/ |
+| Global Cities' AI Readiness Index |  | current | html | https://www.oliverwymanforum.com/city-readiness/global-cities-ai-readiness-index-2019.html |
+| **Global Power City Index (GPCI)** | 2008-2017 | 2018, 2019 | pdf | http://www.mori-m-foundation.or.jp/english/ius2/gpci2/index.shtml |
 
 ideas:
 - gdp datasets contain mixed years! suggestion: "normalize" by adding percentage of change over years of country or region gdp
