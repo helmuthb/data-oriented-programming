@@ -21,7 +21,8 @@
 | % of public green space (parks and gardens) | mixed | mixed | html, csv | http://www.worldcitiescultureforum.com/data/of-public-green-space-parks-and-gardens |
 | **Sustainable Cities Mobility Index** | | 2017| pdf | https://www.arcadis.com/en/global/our-perspectives/sustainable-cities-mobility-index-2017/?utm_source=PR&utm_medium=10302017&utm_campaign=SCMI2017&utm_content=global |
 | Google Trends Explore | | current | csv | https://trends.google.com/trends/explore?q=beatles |
-| openaq: Fighting air inequality through open data and community (no vienna, no up-to-date daily csv) | ? | 2019 | csv (e.g. `curl -o openaq-2019-01-01.csv https://openaq-data.s3.amazonaws.com/2019-01-01.csv`), api | https://openaq.org| 
+| openaq: Fighting air inequality through open data and community (no vienna, no up-to-date daily csv) | ? | 2019 | csv (e.g. `curl -o openaq-2019-01-01.csv https://openaq-data.s3.amazonaws.com/2019-01-01.csv`), api | https://openaq.org |
+| and many more ... | | | | https://toolbox.google.com/datasetsearch/search?query=Global%20city%20index |
 
 ideas:
 - gdp datasets contain mixed years! suggestion: "normalize" by adding percentage of change over years of country or region gdp
