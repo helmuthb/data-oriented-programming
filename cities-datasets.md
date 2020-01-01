@@ -19,6 +19,7 @@
 | **Cost of living in cities around the world** | | 2018 | html, xlsx | https://www.ubs.com/microsites/prices-earnings/en/explore/?split=false |
 | Green area per capita (square meters per capita) |2000 | 2014 | xls | https://data.humdata.org/dataset/green-area-per-capita-square-meters-per-capita |
 | % of public green space (parks and gardens) | mixed | mixed | html, csv | http://www.worldcitiescultureforum.com/data/of-public-green-space-parks-and-gardens |
+| **Sustainable Cities Mobility Index** | | 2017| pdf | https://www.arcadis.com/en/global/our-perspectives/sustainable-cities-mobility-index-2017/?utm_source=PR&utm_medium=10302017&utm_campaign=SCMI2017&utm_content=global
 
 ideas:
 - gdp datasets contain mixed years! suggestion: "normalize" by adding percentage of change over years of country or region gdp
