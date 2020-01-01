@@ -20,9 +20,11 @@
 | Green area per capita (square meters per capita) |2000 | 2014 | xls | https://data.humdata.org/dataset/green-area-per-capita-square-meters-per-capita |
 | % of public green space (parks and gardens) | mixed | mixed | html, csv | http://www.worldcitiescultureforum.com/data/of-public-green-space-parks-and-gardens |
 | **Sustainable Cities Mobility Index** | | 2017| pdf | https://www.arcadis.com/en/global/our-perspectives/sustainable-cities-mobility-index-2017/?utm_source=PR&utm_medium=10302017&utm_campaign=SCMI2017&utm_content=global
+| Google Trends Explore | | current | csv | https://trends.google.com/trends/explore?q=beatles
 
 ideas:
 - gdp datasets contain mixed years! suggestion: "normalize" by adding percentage of change over years of country or region gdp
 - similar to earthquakes, new feature: number of cultural heritages (https://whc.unesco.org/en/list/) within the vicinity (e.g. 50 km radius) of the city
 - calculate % of green space by taking `Green area per capita (square meters per capita)` and `City Regions (population, gdp,...)`->Metropolitan areas->Geographic->Variables:Metropolitan Area area core land area
 - geodata is also contained in `World Urbanization Prospects (Population Dynamics)`
+- `Google Trends Explore`->Interest by Region->City->Check Include Low Search Volume Regions
