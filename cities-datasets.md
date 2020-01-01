@@ -10,7 +10,7 @@
 | Geo Coordinates of World Heritages | current  | current | excel, xml | https://whc.unesco.org/en/syndication |
 | Creative Cities | current  | current | pdf | https://en.unesco.org/creative-cities/sites/creative-cities/files/16_pages_villes_creatives_uk_bd.pdf |
 | City Prosperity Index | mixed  | 2016  | excel | http://urbandata.unhabitat.org/download-raw-data |
-
+| Mercer Index (Quality of Living Survey) | 2010,2012,2014,2015,2016 | 2018,2019 | html | https://en.wikipedia.org/wiki/Mercer_Quality_of_Living_Survey
 
 ideas:
 - gdp datasets contain mixed years! suggestion: "normalize" by adding percentage of change over years of country or region gdp
