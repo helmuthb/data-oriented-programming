@@ -30,3 +30,8 @@ ideas:
 - calculate % of green space by taking `Green area per capita (square meters per capita)` and `City Regions (population, gdp,...)`->Metropolitan areas->Geographic->Variables:Metropolitan Area area core land area
 - geodata is also contained in `World Urbanization Prospects (Population Dynamics)`
 - `Google Trends Explore`->Interest by Region->City->Check Include Low Search Volume Regions
+
+
+
+Tabellarische Mercer daten
+https://en.wikipedia.org/wiki/Mercer_Quality_of_Living_Survey

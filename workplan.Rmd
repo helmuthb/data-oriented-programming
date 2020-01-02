@@ -30,7 +30,7 @@ Following the task description, we aim to find answers to the following question
 
 We plan to utilize the followig data sets:
 
-* https://mobilityexchange.mercer.com/Insights/quality-of-living-rankings
+* https://mobilityexchange.mercer.com/Insights/quality-of-living-rankings  
 * http://www.eiu.com/topic/liveability
 * https://www.cia.gov/library/publications/the-world-factbook/
 * https://www.numbeo.com/quality-of-life/rankings_by_country.jsp
