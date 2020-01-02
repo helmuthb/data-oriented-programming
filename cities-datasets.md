@@ -31,7 +31,7 @@ ideas:
 - geodata is also contained in `World Urbanization Prospects (Population Dynamics)`
 - `Google Trends Explore`->Interest by Region->City->Check Include Low Search Volume Regions
 
-
+-
 
 Tabellarische Mercer daten
 https://en.wikipedia.org/wiki/Mercer_Quality_of_Living_Survey
