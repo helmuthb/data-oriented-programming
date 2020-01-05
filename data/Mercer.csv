@@ -1,0 +1,367 @@
+﻿City,Country,Index 2010,year,Value
+Vienna,Austria,108.6,2019,1
+Vienna,Austria,108.6,2018,1
+Vienna,Austria,108.6,2016,1
+Vienna,Austria,108.6,2015,1
+Vienna,Austria,108.6,2014,1
+Vienna,Austria,108.6,2012,1
+Vienna,Austria,108.6,2010,1
+Zürich,Switzerland,108.0,2019,2
+Zürich,Switzerland,108.0,2018,2
+Zürich,Switzerland,108.0,2016,2
+Zürich,Switzerland,108.0,2015,2
+Zürich,Switzerland,108.0,2014,2
+Zürich,Switzerland,108.0,2012,2
+Zürich,Switzerland,108.0,2010,2
+Munich,Germany,107.0,2019,3
+Munich,Germany,107.0,2018,3
+Munich,Germany,107.0,2016,4
+Munich,Germany,107.0,2015,4
+Munich,Germany,107.0,2014,4
+Munich,Germany,107.0,2012,4
+Munich,Germany,107.0,2010,7
+Auckland,New Zealand,107.4,2019,3
+Auckland,New Zealand,107.4,2018,4
+Auckland,New Zealand,107.4,2016,3
+Auckland,New Zealand,107.4,2015,3
+Auckland,New Zealand,107.4,2014,3
+Auckland,New Zealand,107.4,2012,3
+Auckland,New Zealand,107.4,2010,4
+Vancouver,Canada,107.4,2019,3
+Vancouver,Canada,107.4,2018,5
+Vancouver,Canada,107.4,2016,5
+Vancouver,Canada,107.4,2015,5
+Vancouver,Canada,107.4,2014,5
+Vancouver,Canada,107.4,2012,5
+Vancouver,Canada,107.4,2010,3
+Düsseldorf,Germany,107.2,2019,6
+Düsseldorf,Germany,107.2,2018,6
+Düsseldorf,Germany,107.2,2016,6
+Düsseldorf,Germany,107.2,2015,6
+Düsseldorf,Germany,107.2,2014,6
+Düsseldorf,Germany,107.2,2012,6
+Düsseldorf,Germany,107.2,2010,6
+Frankfurt,Germany,107.0,2019,7
+Frankfurt,Germany,107.0,2018,7
+Frankfurt,Germany,107.0,2016,7
+Frankfurt,Germany,107.0,2015,7
+Frankfurt,Germany,107.0,2014,7
+Frankfurt,Germany,107.0,2012,7
+Frankfurt,Germany,107.0,2010,7
+Copenhagen,Denmark,106.2,2019,8
+Copenhagen,Denmark,106.2,2018,9
+Copenhagen,Denmark,106.2,2016,9
+Copenhagen,Denmark,106.2,2015,9
+Copenhagen,Denmark,106.2,2014,9
+Copenhagen,Denmark,106.2,2012,9
+Copenhagen,Denmark,106.2,2010,11
+Geneva,Switzerland,107.9,2019,9
+Geneva,Switzerland,107.9,2018,8
+Geneva,Switzerland,107.9,2016,8
+Geneva,Switzerland,107.9,2015,8
+Geneva,Switzerland,107.9,2014,8
+Geneva,Switzerland,107.9,2012,8
+Geneva,Switzerland,107.9,2010,3
+Basel,Switzerland,,2019,10
+Basel,Switzerland,,2018,10
+Sydney,Australia,106.3,2019,11
+Sydney,Australia,106.3,2018,10
+Sydney,Australia,106.3,2016,10
+Sydney,Australia,106.3,2015,10
+Sydney,Australia,106.3,2014,10
+Sydney,Australia,106.3,2012,10
+Sydney,Australia,106.3,2010,10
+Amsterdam,Netherlands,105.7,2019,11
+Amsterdam,Netherlands,105.7,2018,12
+Amsterdam,Netherlands,105.7,2016,11
+Amsterdam,Netherlands,105.7,2015,11
+Amsterdam,Netherlands,105.7,2014,11
+Amsterdam,Netherlands,105.7,2012,12
+Amsterdam,Netherlands,105.7,2010,13
+Berlin,Germany,105.0,2019,13
+Berlin,Germany,105.0,2018,13
+Berlin,Germany,105.0,2016,13
+Berlin,Germany,105.0,2015,14
+Berlin,Germany,105.0,2012,16
+Berlin,Germany,105.0,2010,17
+Bern,Switzerland,106.5,2019,14
+Bern,Switzerland,106.5,2018,14
+Bern,Switzerland,106.5,2016,14
+Bern,Switzerland,106.5,2015,13
+Bern,Switzerland,106.5,2014,10
+Bern,Switzerland,106.5,2012,10
+Bern,Switzerland,106.5,2010,9
+Wellington,New Zealand,105.9,2019,15
+Wellington,New Zealand,105.9,2018,15
+Wellington,New Zealand,105.9,2016,12
+Wellington,New Zealand,105.9,2015,12
+Wellington,New Zealand,105.9,2014,12
+Wellington,New Zealand,105.9,2012,13
+Wellington,New Zealand,105.9,2010,12
+Toronto,Canada,105.3,2019,16
+Toronto,Canada,105.3,2018,16
+Toronto,Canada,105.3,2016,15
+Toronto,Canada,105.3,2015,15
+Toronto,Canada,105.3,2014,15
+Toronto,Canada,105.3,2012,15
+Toronto,Canada,105.3,2010,16
+Melbourne,Australia,104.8,2019,17
+Melbourne,Australia,104.8,2018,16
+Melbourne,Australia,104.8,2016,15
+Melbourne,Australia,104.8,2015,16
+Melbourne,Australia,104.8,2012,17
+Melbourne,Australia,104.8,2010,18
+Luxembourg,Luxembourg,104.6,2019,18
+Luxembourg,Luxembourg,104.6,2018,18
+Luxembourg,Luxembourg,104.6,2016,19
+Luxembourg,Luxembourg,104.6,2015,19
+Luxembourg,Luxembourg,104.6,2012,19
+Luxembourg,Luxembourg,104.6,2010,19
+Ottawa,Canada,105.5,2019,19
+Ottawa,Canada,105.5,2018,19
+Ottawa,Canada,105.5,2016,17
+Ottawa,Canada,105.5,2015,16
+Ottawa,Canada,105.5,2014,14
+Ottawa,Canada,105.5,2012,14
+Ottawa,Canada,105.5,2010,14
+Hamburg,Germany,104.1,2019,19
+Hamburg,Germany,104.1,2018,19
+Hamburg,Germany,104.1,2016,18
+Hamburg,Germany,104.1,2015,16
+Hamburg,Germany,104.1,2012,17
+Hamburg,Germany,104.1,2010,23
+Perth,Australia,104.2,2019,21
+Perth,Australia,104.2,2018,21
+Perth,Australia,104.2,2016,21
+Perth,Australia,104.2,2015,22
+Perth,Australia,104.2,2012,21
+Perth,Australia,104.2,2010,21
+Montreal,Canada,104.2,2019,21
+Montreal,Canada,104.2,2018,21
+Montreal,Canada,104.2,2016,23
+Montreal,Canada,104.2,2015,24
+Montreal,Canada,104.2,2014,23
+Montreal,Canada,104.2,2012,23
+Montreal,Canada,104.2,2010,21
+Stockholm,Sweden,104.5,2019,23
+Stockholm,Sweden,104.5,2018,23
+Stockholm,Sweden,104.5,2016,19
+Stockholm,Sweden,104.5,2015,19
+Stockholm,Sweden,104.5,2012,19
+Stockholm,Sweden,104.5,2010,20
+Nuremberg,Germany,103.9,2019,23
+Nuremberg,Germany,103.9,2018,23
+Nuremberg,Germany,103.9,2016,25
+Nuremberg,Germany,103.9,2015,25
+Nuremberg,Germany,103.9,2012,24
+Nuremberg,Germany,103.9,2010,24
+Singapore,Singapore,103.5,2019,25
+Singapore,Singapore,103.5,2018,25
+Singapore,Singapore,103.5,2016,26
+Singapore,Singapore,103.5,2015,26
+Singapore,Singapore,103.5,2012,25
+Singapore,Singapore,103.5,2010,28
+Oslo,Norway,103.9,2019,25
+Oslo,Norway,103.9,2018,25
+Oslo,Norway,103.9,2016,30
+Oslo,Norway,103.9,2015,31
+Oslo,Norway,103.9,2012,32
+Oslo,Norway,103.9,2010,24
+Stuttgart,Germany,103.3,2019,27
+Stuttgart,Germany,103.3,2018,28
+Stuttgart,Germany,103.3,2016,24
+Stuttgart,Germany,103.3,2015,21
+Stuttgart,Germany,103.3,2012,27
+Stuttgart,Germany,103.3,2010,30
+Brussels,Belgium,105.4,2019,28
+Brussels,Belgium,105.4,2018,27
+Brussels,Belgium,105.4,2016,21
+Brussels,Belgium,105.4,2015,22
+Brussels,Belgium,105.4,2012,22
+Brussels,Belgium,105.4,2010,15
+Adelaide,Australia,103.0,2019,29
+Adelaide,Australia,103.0,2018,29
+Adelaide,Australia,103.0,2016,27
+Adelaide,Australia,103.0,2015,27
+Adelaide,Australia,103.0,2012,29
+Adelaide,Australia,103.0,2010,32
+Canberra,Australia,103.6,2019,30
+Canberra,Australia,103.6,2018,30
+Canberra,Australia,103.6,2016,28
+Canberra,Australia,103.6,2015,30
+Canberra,Australia,103.6,2012,26
+Canberra,Australia,103.6,2010,26
+Helsinki,Finland,102.6,2019,31
+Helsinki,Finland,102.6,2018,32
+Helsinki,Finland,102.6,2016,30
+Helsinki,Finland,102.6,2015,31
+Helsinki,Finland,102.6,2012,32
+Helsinki,Finland,102.6,2010,35
+Calgary,Canada,103.5,2019,32
+Calgary,Canada,103.5,2018,33
+Calgary,Canada,103.5,2016,32
+Calgary,Canada,103.5,2015,33
+Calgary,Canada,103.5,2012,32
+Calgary,Canada,103.5,2010,28
+Dublin,Ireland,103.6,2019,33
+Dublin,Ireland,103.6,2018,34
+Dublin,Ireland,103.6,2016,33
+Dublin,Ireland,103.6,2015,34
+Dublin,Ireland,103.6,2014,34
+Dublin,Ireland,103.6,2012,35
+Dublin,Ireland,103.6,2010,26
+San Francisco,United States,103.0,2019,34
+San Francisco,United States,103.0,2018,30
+San Francisco,United States,103.0,2016,28
+San Francisco,United States,103.0,2015,27
+San Francisco,United States,103.0,2014,27
+San Francisco,United States,103.0,2012,29
+San Francisco,United States,103.0,2010,32
+Brisbane,Australia,102.4,2019,35
+Brisbane,Australia,102.4,2018,37
+Brisbane,Australia,102.4,2016,36
+Brisbane,Australia,102.4,2015,37
+Brisbane,Australia,102.4,2012,37
+Brisbane,Australia,102.4,2010,36
+Boston,United States,102.2,2019,36
+Boston,United States,102.2,2018,35
+Boston,United States,102.2,2016,34
+Boston,United States,102.2,2015,34
+Boston,United States,102.2,2012,35
+Boston,United States,102.2,2010,37
+Honolulu,United States,103.1,2019,37
+Honolulu,United States,103.1,2018,36
+Honolulu,United States,103.1,2016,35
+Honolulu,United States,103.1,2015,36
+Honolulu,United States,103.1,2012,28
+Honolulu,United States,103.1,2010,31
+Lisbon,Portugal,100.3,2019,37
+Lisbon,Portugal,100.3,2018,38
+Lisbon,Portugal,100.3,2016,42
+Lisbon,Portugal,100.3,2015,41
+Lisbon,Portugal,100.3,2014,43
+Lisbon,Portugal,100.3,2012,44
+Lisbon,Portugal,100.3,2010,45
+Paris,France,102.9,2019,39
+Paris,France,102.9,2018,39
+Paris,France,102.9,2016,37
+Paris,France,102.9,2015,27
+Paris,France,102.9,2012,29
+Paris,France,102.9,2010,34
+Lyon,France,101.9,2019,40
+Lyon,France,101.9,2018,40
+Lyon,France,101.9,2016,38
+Lyon,France,101.9,2015,39
+Lyon,France,101.9,2012,39
+Lyon,France,101.9,2010,38
+London,United Kingdom,101.6,2019,41
+London,United Kingdom,101.6,2018,41
+London,United Kingdom,101.6,2016,39
+London,United Kingdom,101.6,2015,40
+London,United Kingdom,101.6,2012,38
+London,United Kingdom,101.6,2010,39
+Milan,Italy,100.8,2019,41
+Milan,Italy,100.8,2018,42
+Milan,Italy,100.8,2016,41
+Milan,Italy,100.8,2015,41
+Milan,Italy,100.8,2012,41
+Milan,Italy,100.8,2010,41
+Barcelona,Spain,100.6,2019,43
+Barcelona,Spain,100.6,2018,43
+Barcelona,Spain,100.6,2016,39
+Barcelona,Spain,100.6,2015,38
+Barcelona,Spain,100.6,2012,40
+Barcelona,Spain,100.6,2010,44
+New York City,United States,100.0,2019,44
+New York City,United States,100.0,2018,45
+New York City,United States,100.0,2016,44
+New York City,United States,100.0,2015,44
+New York City,United States,100.0,2012,44
+New York City,United States,100.0,2010,49
+Edinburgh,United Kingdom,,2019,45
+Edinburgh,United Kingdom,,2018,46
+Edinburgh,United Kingdom,,2016,46
+Seattle,United States,99.8,2019,46
+Seattle,United States,99.8,2018,44
+Seattle,United States,99.8,2016,46
+Seattle,United States,99.8,2015,44
+Seattle,United States,99.8,2012,44
+Seattle,United States,99.8,2010,50
+Madrid,Spain,,2019,46
+Madrid,Spain,,2018,49
+Glasgow,United Kingdom,,2019,48
+Glasgow,United Kingdom,,2018,50
+Chicago,United States,100.3,2019,49
+Chicago,United States,100.3,2018,47
+Chicago,United States,100.3,2016,43
+Chicago,United States,100.3,2015,43
+Chicago,United States,100.3,2012,42
+Chicago,United States,100.3,2010,45
+Tokyo,Japan,101.4,2019,49
+Tokyo,Japan,101.4,2018,50
+Tokyo,Japan,101.4,2016,44
+Tokyo,Japan,101.4,2015,44
+Tokyo,Japan,101.4,2012,44
+Tokyo,Japan,101.4,2010,40
+Kobe,Japan,100.8,2019,49
+Kobe,Japan,100.8,2018,50
+Kobe,Japan,100.8,2016,46
+Kobe,Japan,100.8,2015,47
+Kobe,Japan,100.8,2012,48
+Kobe,Japan,100.8,2010,41
+Birmingham,United Kingdom,,2019,49
+Birmingham,United Kingdom,,2018,50
+"Washington, D.C.",United States,100.3,2019,53
+"Washington, D.C.",United States,100.3,2018,48
+"Washington, D.C.",United States,100.3,2016,51
+"Washington, D.C.",United States,100.3,2015,50
+"Washington, D.C.",United States,100.3,2012,43
+"Washington, D.C.",United States,100.3,2010,45
+Philadelphia,United States,,2019,54
+Philadelphia,United States,,2018,50
+Yokohama,Japan,,2019,55
+Rome,Italy,,2019,56
+Aberdeen,United Kingdom,,2019,57
+Osaka,Japan,,2019,58
+Pittsburgh,United States,,2019,59
+Leipzig,Germany,,2019,60
+Minneapolis,United States,,2019,61
+Nagoya,Japan,,2019,62
+Dallas,United States,,2019,63
+Atlanta,United States,,2019,64
+Belfast,United Kingdom,,2019,64
+Houston,United States,,2019,66
+Los Angeles,United States,,2019,66
+Miami,United States,,2019,66
+Prague,Czech Republic,,2019,69
+St. Louis,United States,,2019,70
+Hong Kong,Hong Kong SAR,,2019,71
+Detroit,United States,,2019,72
+Pointe-à-Pitre,Guadeloupe,,2019,72
+Dubai,United Arab Emirates,,2019,74
+Ljubljana,Slovenia,,2019,74
+Budapest,Hungary,,2019,76
+Seoul,South Korea,,2019,77
+Abu Dhabi,United Arab Emirates,,2019,78
+Montevideo,Uruguay,,2019,78
+Bratislava,Slovakia,,2019,80
+Vilnius,Lithuania,,2019,81
+Warsaw,Poland,,2019,82
+Port Louis,Mauritius,,2019,83
+Taipei,Taiwan,,2019,84
+Kuala Lumpur,Malaysia,,2019,85
+Limassol,Cyprus,,2019,86
+Tallinn,Estonia,,2019,86
+Durban,South Africa,,2019,88
+Athens,Greece,,2019,89
+Riga,Latvia,,2019,90
+Buenos Aires,Argentina,,2019,91
+San Juan,Puerto Rico,,2019,92
+Santiago,Chile,,2019,93
+Busan,South Korea,,2019,94
+Cape Town,South Africa,,2019,95
+Johannesburg,South Africa,,2019,96
+Panama City,Panama,,2019,97
+Victoria,Seychelles,,2019,98
+Zagreb,Croatia,,2019,98
+Wroclaw,Poland,,2019,100
