@@ -3,12 +3,13 @@
 
 To Install R Cells in jupyter notebooks:
 
-This is true for windows 10 and miniconda
+The following works for windows 10 and miniconda
 
 conda install -c r r-irkernel
 conda install -c r rpy2
 conda install -c conda-forge tzlocal
 conda install -c anaconda simplegeneric
+
 
 In Jupyter one has to activate the rpy2 extension in a Python cell first:
 %load_ext rpy2.ipython
