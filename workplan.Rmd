@@ -55,8 +55,7 @@ Explorative methods and visualization.
 
 ### Ranking correlation
 
-We use correlation analysis (cross-correlation coefficient, etc.) to identify how
-far the rankings correlate with each other.
+We use correlation analysis (cross-correlation coefficient, etc.) to identify how the rankings correlate with each other.
 
 For this we will first identify the subset of data (cities) which is common among the rankings.
 
