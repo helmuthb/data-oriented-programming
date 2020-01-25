@@ -25,17 +25,6 @@ The main focus was on the ranking published by Mercer, ranking and indices publi
 Numbeo and statistics published by WHO, the United Nations, and other data collected 
 by Gap Minder.
 
-Our goal was to answer the questions:
-
-* How do the rankings change over time?
-* How do these rankings correlate with each other for one specific year?
-* How do they correlate with other statistics about the countries in which
-  the cities are located?
-* How do they correlate with quality of living rankings of the country
-  in which the cities are located?
-* What are the determining characteristics for livability of a city?
-  How do they correlate with cost of living?
-
 We found that the quality of living indices are going upwards - except for the last three years
 where there is an small downwards trend visible.
 Here one should also understand that the methodology of the rankings and indexes
@@ -69,21 +58,19 @@ The following plot shows the average index values over time for
 the Quality of Live (QoL) identified by Numbeo, together with
 the components which influence this index.
 
-```{r, out.width="100%"}
+```{r, out.width="80%"}
 knitr::include_graphics('visuals/RankingsOverTime.png')
 ```
 
-
-
 ## Correlation of City QoL Rankings with each other
+
+```{r, out.width="80%"}
+knitr::include_graphics('visuals/CorrelationOfMercerAndUNAndNumbeoRanking2012.png')
+```
 
 With this plot we investigated the correlation of the rankings identified by
 Numbeo with those identified by Mercer as well as the UN Habitat data,
 specifically looking into the year 2012 (where the most data was available).
-
-```{r, out.width="100%"}
-knitr::include_graphics('visuals/CorrelationOfMercerAndUNAndNumbeoRanking2012.png')
-```
 
 The correlation between Numbeo and Mercer is very clearly visible; the correlation
 to the UN Habitat ranking however is lower.
@@ -96,15 +83,21 @@ for their cities.
 
 As an example here a plot of the correlation between GDP per capita
 (purchase-power adjusted) and QoL:
-```{r, out.width="100%"}
+```{r, out.width="80%"}
 knitr::include_graphics('visuals/CorrelationGDP_QoL.png')
 ```
 
 ## Correlation of City QoL Rankings with Country QoL Rankings
 
+We compared every City QoL Ranking with Human Development Index as well as with Numbeo. The highest correlation was found between UN Prosperty and Human Development Index:
+
+```{r, out.width="60%"}
+knitr::include_graphics('visuals/cities_vs_countries_best.png')
+```
+
 ## Determining Factors for City QoL
 
-```{r, out.width="100%"}
+```{r, out.width="80%"}
 knitr::include_graphics('visuals/CorrelationOfRankingsIn2020WithOutliers.png')
 ```
 
