@@ -69,21 +69,19 @@ The following plot shows the average index values over time for
 the Quality of Live (QoL) identified by Numbeo, together with
 the components which influence this index.
 
-```{r, out.width="100%"}
+```{r, out.width="80%"}
 knitr::include_graphics('visuals/RankingsOverTime.png')
 ```
 
-
-
 ## Correlation of City QoL Rankings with each other
+
+```{r, out.width="80%"}
+knitr::include_graphics('visuals/CorrelationOfMercerAndUNAndNumbeoRanking2012.png')
+```
 
 With this plot we investigated the correlation of the rankings identified by
 Numbeo with those identified by Mercer as well as the UN Habitat data,
 specifically looking into the year 2012 (where the most data was available).
-
-```{r, out.width="100%"}
-knitr::include_graphics('visuals/CorrelationOfMercerAndUNAndNumbeoRanking2012.png')
-```
 
 The correlation between Numbeo and Mercer is very clearly visible; the correlation
 to the UN Habitat ranking however is lower.
@@ -96,7 +94,7 @@ for their cities.
 
 As an example here a plot of the correlation between GDP per capita
 (purchase-power adjusted) and QoL:
-```{r, out.width="100%"}
+```{r, out.width="80%"}
 knitr::include_graphics('visuals/CorrelationGDP_QoL.png')
 ```
 
@@ -104,7 +102,7 @@ knitr::include_graphics('visuals/CorrelationGDP_QoL.png')
 
 ## Determining Factors for City QoL
 
-```{r, out.width="100%"}
+```{r, out.width="80%"}
 knitr::include_graphics('visuals/CorrelationOfRankingsIn2020WithOutliers.png')
 ```
 
