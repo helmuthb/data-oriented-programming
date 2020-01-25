@@ -25,17 +25,6 @@ The main focus was on the ranking published by Mercer, ranking and indices publi
 Numbeo and statistics published by WHO, the United Nations, and other data collected 
 by Gap Minder.
 
-Our goal was to answer the questions:
-
-* How do the rankings change over time?
-* How do these rankings correlate with each other for one specific year?
-* How do they correlate with other statistics about the countries in which
-  the cities are located?
-* How do they correlate with quality of living rankings of the country
-  in which the cities are located?
-* What are the determining characteristics for livability of a city?
-  How do they correlate with cost of living?
-
 We found that the quality of living indices are going upwards - except for the last three years
 where there is an small downwards trend visible.
 Here one should also understand that the methodology of the rankings and indexes
