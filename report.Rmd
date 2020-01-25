@@ -31,7 +31,7 @@ Our goal was to answer the questions:
 * How do these rankings correlate with each other for one specific year?
 * How do they correlate with other statistics about the countries in which
   the cities are located?
-  How do they correlate with quality of living rankings of the country
+* How do they correlate with quality of living rankings of the country
   in which the cities are located?
 * What are the determining characteristics for livability of a city?
   How do they correlate with cost of living?
@@ -55,10 +55,11 @@ Similarly, the correlation with country-level QoL rankings (e.g. the Numbeo coun
 is again very high.
 We looked into cities which are not following the country trend,
 like Mumbai (vastly exceeding the QoL of India) and Rome (much lower
-QoL as the Italy).
+QoL as Italy).
 
 We found that the three major characteristics determining the livability of a city
 (according to these QoL rankings) are health care, cost of living and purchasing power.
+On the other hand the QoL rankings suffer from high pollution rates, high property-to-income-ratios and long commute times (inefficient traffic).
 
 # Questions answered
 
@@ -84,8 +85,8 @@ specifically looking into the year 2012 (where the most data was available).
 knitr::include_graphics('visuals/CorrelationOfMercerAndUNAndNumbeoRanking2012.png')
 ```
 
-The correlation betweek Numbeo and Mercer is very clearly visible; the correlation
-to the UN Habitat ranking however is very small.
+The correlation between Numbeo and Mercer is very clearly visible; the correlation
+to the UN Habitat ranking however is lower.
 
 ## Correlation of City QoL Rankings with Country Statistics
 
@@ -106,3 +107,20 @@ knitr::include_graphics('visuals/CorrelationGDP_QoL.png')
 ```{r, out.width="100%"}
 knitr::include_graphics('visuals/CorrelationOfRankingsIn2020WithOutliers.png')
 ```
+
+
+## Correlation of Cost of Living with other city-characteristics. 
+
+Purchasing Power and Healthcare are indicators that the cost of living will also be high. 
+```{r, out.width="100%"}
+knitr::include_graphics('visuals/CostOfLivingCorrelationIn2020.png')
+```
+
+Pollution, inefficient traffic, and a high property-price-to-income-ratio (pptir) reduce the cost of living index. 
+
+```{r, out.width="100%"}
+knitr::include_graphics('visuals/CostOfLivingCorrelationIn2020NegativeInfluencers.png')
+```
+
+The pptir is an indication on how long an average family has to work to buy an average property(house/flat) in a city. It is interesting to see that there is a negative correlation between this indicator and the cost of. 
+It may seem counterintuitive that it is easier to buy a house when the cost of living is higher.
