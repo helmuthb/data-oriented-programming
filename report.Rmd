@@ -100,6 +100,12 @@ knitr::include_graphics('visuals/CorrelationGDP_QoL.png')
 
 ## Correlation of City QoL Rankings with Country QoL Rankings
 
+We compared every City QoL Ranking with Human Development Index as well as with Numbeo. The highest correlation was found between UN Prosperty and Human Development Index:
+
+```{r, out.width="60%"}
+knitr::include_graphics('visuals/cities_vs_countries_best.png')
+```
+
 ## Determining Factors for City QoL
 
 ```{r, out.width="80%"}
