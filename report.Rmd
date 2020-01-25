@@ -19,9 +19,12 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Executive Summary
 
 We have been analysing data for various city and country rankings and indices, measuring
-overall quality of live (QoL).
+overall quality of living (QoL).
 These data were merged with additional statistics for cities and countries related to
 health, environmental and economical situation.
+The main focus was on the ranking published by Mercer, ranking and indices published by
+Numbeo and statistics published by WHO, the United Nations, and other data collected 
+by Gap Minder.
 
 Our goal was answering the questions:
 
@@ -29,20 +32,29 @@ Our goal was answering the questions:
 * How do these rankings correlate with each other for one specific year?
 * How do they correlate with other statistics about the countries in which
   the cities are located?
-  How do they correlate with quality of life rankings of the country
+  How do they correlate with quality of living rankings of the country
   in which the cities are located?
 * What are the determining characteristics for livability of a city?
   How do they correlate with cost of living?
   
-We found that - with some recent changes, potentially related to the economic crisis
-starting in 2007 - the quality of live indices are going upwards.
+We found that the quality of living indices are going upwards - except for the last three years
+where there is an small downwards trend visible.
 
-There is a strong correlation between the indices published by Mercer and the one
-calculated by Numbeo.
+There is a strong correlation between the rankings published by Mercer and the one
+calculated by Numbeo. Other city rankings (e.g. UN Habitat ranking) do not correlate
+so well.
 
-TODO - correlation with country QoL rankings
+The correlation of country-level statistics (e.g. GDP per capita,
+emission damage, health care system) to the city-level QoL ranking turned
+out to be surprisingly high.
+Almost 50% of the variance of the QoL index can be explained by country-level
+statistics.
 
-TODO - correlation with country statistics
+Similarly, the correlation with country-level QoL rankings (e.g. the Numbeo country ranking)
+is again very high.
+We looked into cities which are not following the country trend,
+like Mumbai (vastly exceeding the QoL of India) and Rome (much lower
+QoL as the Italy).
 
 We found that the three major characteristics determining the livability of a city
 (according to these QoL rankings) are health care, cost of living and purchasing power.
@@ -71,6 +83,16 @@ The correlation betweek Numbeo and Mercer is very clearly visible; the correlati
 to the UN Habitat ranking however is very small.
 
 ## Correlation of City QoL Rankings with Country Statistics
+
+We looked into the correlation of health-related, economical and
+environmental statistics of countries and their influence on the Quality of Living
+for their cities.
+
+As an example here a plot of the correlation between GDP per capita
+(purchase-power adjusted) and QoL:
+```{r, out.width="100%"}
+knitr::include_graphics('visuals/CorrelationGDP_QoL.png')
+```
 
 ## Correlation of City QoL Rankings with Country QoL Rankings
 
