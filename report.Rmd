@@ -87,6 +87,22 @@ As an example here a plot of the correlation between GDP per capita
 knitr::include_graphics('visuals/CorrelationGDP_QoL.png')
 ```
 
+The ranking datasets (from top: Mercer, Numbeo, UN) correlate differently with the Gapminder dataset containing population size, child deaths, income per person, CO2 emissions of the country, life expectancy and fertility differs:
+
+```{r, out.width="100%"}
+knitr::include_graphics('visuals/correlations0_mercer.png')
+knitr::include_graphics('visuals/correlations0_numbeo.png')
+knitr::include_graphics('visuals/correlations0_un_prosperity.png')
+```
+
+The percentage of green area and different unemployment measures (15-25, 25-54, 55-64, 64+) has different correlation too among the ranking indizes:
+```{r, out.width="100%"}
+knitr::include_graphics('visuals/correlations1_mercer.png')
+knitr::include_graphics('visuals/correlations1_numbeo.png')
+knitr::include_graphics('visuals/correlations1_un_prosperity.png')
+```
+This shows, that the indizes put different weights on the provided attributes.
+
 ## Correlation of City QoL Rankings with Country QoL Rankings
 
 We compared every City QoL Ranking with Human Development Index as well as with Numbeo. The highest correlation was found between UN Prosperty and Human Development Index:
