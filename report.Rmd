@@ -1,11 +1,11 @@
 ---
-title: "Report DOPP Exercise 3"
+title: "Report DOPP Exercise 3 - Group 29"
 author: 
   - "Helmuth Breitenfellner, 8725866; László Király, 9227679;"
   - "Lukas Steindl, 11743494; Gerald Weber, 0125536"
 date: "2020-01-27"
 output: pdf_document
-subtitle: "Topic 16 - Change of City Quality of Life Rankings over Time"
+subtitle: "Topic 16: Change of City Quality of Life Rankings over Time"
 classoption: "twocolumn"
 ---
 
