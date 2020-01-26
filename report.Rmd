@@ -1,10 +1,8 @@
 ---
 title: "Report DOPP Exercise 3"
 author: 
-  - "Helmuth Breitenfellner, 8725866"
-  - "László Király, 9227679"
-  - "Lukas Steindl, 11743494"
-  - "Gerald Weber, 0125536"
+  - "Helmuth Breitenfellner, 8725866; László Király, 9227679;"
+  - "Lukas Steindl, 11743494; Gerald Weber, 0125536"
 date: "2020-01-27"
 output: pdf_document
 subtitle: "Topic 16 - Change of City Quality of Life Rankings over Time"
@@ -55,7 +53,7 @@ Additionally, some of the modelling has been performed on all available years.
 
 # Questions answered
 
-## Change of QoL Rankings and Indices over Time
+## QoL Rankings / Indices over Time
 
 The following plot shows the average index values over time for
 the Quality of Live (QoL) identified by Numbeo, together with
@@ -65,7 +63,7 @@ the components which influence this index.
 knitr::include_graphics('visuals/RankingsOverTime.png')
 ```
 
-## Correlation of City QoL Rankings with each other
+## City QoL Rankings cross-correlation
 
 ```{r}
 knitr::include_graphics('visuals/CorrelationOfMercerAndUNAndNumbeoRanking2012.png')
@@ -78,7 +76,7 @@ specifically looking into the year 2012 (where the most data was available).
 The correlation between Numbeo and Mercer is very clearly visible; the correlation
 to the UN Habitat ranking however is lower.
 
-## Correlation of City QoL Rankings with Country Statistics
+## City QoL Rank vs. Country Statistics
 
 We looked into the correlation of health-related, economical and
 environmental statistics of countries and their influence on the Quality of Living
@@ -106,15 +104,16 @@ knitr::include_graphics('visuals/correlations1_mercer.png')
 knitr::include_graphics('visuals/correlations1_numbeo.png')
 knitr::include_graphics('visuals/correlations1_un_prosperity.png')
 ```
-This shows that the indizes put different weights on the provided attributes.
+This shows that the indices put different weights on the provided attributes.
 
-## Correlation of City QoL Rankings with Country QoL Rankings
+## City QoL Rank vs. Country QoL Rank
 
 We compared every City QoL Ranking with Human Development Index as well as with Numbeo. The highest correlation was found between UN Prosperty and Human Development Index (HDI),
 with a correlation of 0.927 (using Spearman's rank correlation coefficient).
-Since both indices are created by UN agencies this high value is not surprising.
-When looking at Numbeo's _City Ranking_ in correlation with the HDI _Country Ranking_
-we still found a correlation of 0.748 based on Spearman.
+Both indices are created by UN agencies, so we assume they use partially the
+same base indices in their calculation, explaining this high correlation value.
+When looking at Numbeo's _City Ranking_ in correlation with the HDI _Country Ranking_,
+created from different entities, we still found a correlation of 0.748 based on Spearman.
 
 ```{r, eval=FALSE}
 knitr::include_graphics('visuals/cities_vs_countries_best.png')
@@ -133,7 +132,7 @@ The following factors _reduce_ the quality of living:
 
 We did not find a significant influence of _climate_ on the quality of living.
 
-## Correlation of Cost of Living with other city-characteristics. 
+## Cost of Living vs. City Statistics 
 
 Purchasing Power and Healthcare are indicators that the cost of living will also be high. 
 ```{r, eval=TRUE}
