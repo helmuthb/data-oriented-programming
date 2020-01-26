@@ -12,7 +12,7 @@ classoption: "twocolumn"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "80%")
 ```
 
 # Executive Summary
@@ -50,6 +50,9 @@ We found that the three major characteristics determining the livability of a ci
 (according to these QoL rankings) are health care, cost of living and purchasing power.
 On the other hand the QoL rankings suffer from high pollution rates, high property-to-income-ratios and long commute times (inefficient traffic).
 
+Most of the analysis was performed on the year 2012 where the most data was available.
+Additionally, some of the modelling has been performed on all available years.
+
 # Questions answered
 
 ## Change of QoL Rankings and Indices over Time
@@ -58,13 +61,13 @@ The following plot shows the average index values over time for
 the Quality of Live (QoL) identified by Numbeo, together with
 the components which influence this index.
 
-```{r, out.width="80%"}
+```{r}
 knitr::include_graphics('visuals/RankingsOverTime.png')
 ```
 
 ## Correlation of City QoL Rankings with each other
 
-```{r, out.width="80%"}
+```{r}
 knitr::include_graphics('visuals/CorrelationOfMercerAndUNAndNumbeoRanking2012.png')
 ```
 
@@ -81,55 +84,74 @@ We looked into the correlation of health-related, economical and
 environmental statistics of countries and their influence on the Quality of Living
 for their cities.
 
-As an example here a plot of the correlation between GDP per capita
-(purchase-power adjusted) and QoL:
-```{r, out.width="80%"}
-knitr::include_graphics('visuals/CorrelationGDP_QoL.png')
-```
+The ranking datasets (from top: Mercer, Numbeo, UN) correlate differently with the Gapminder dataset containing population size, child deaths, income per person, CO2 emissions of the country, life expectancy and fertility:
 
-The ranking datasets (from top: Mercer, Numbeo, UN) correlate differently with the Gapminder dataset containing population size, child deaths, income per person, CO2 emissions of the country, life expectancy and fertility differs:
-
-```{r, out.width="100%"}
+```{r}
 knitr::include_graphics('visuals/correlations0_mercer.png')
 knitr::include_graphics('visuals/correlations0_numbeo.png')
 knitr::include_graphics('visuals/correlations0_un_prosperity.png')
 ```
 
-The percentage of green area and different unemployment measures (15-25, 25-54, 55-64, 64+) has different correlation too among the ranking indizes:
-```{r, out.width="100%"}
+We also looked into the correlation of available green area as well as various unemployment
+measures on the rankings.
+
+One of the outstandig results here was that visually the
+Mercer rank was (slightly) negatively correlating with the available green area,
+while Numbeo and UN Prosperity rank was (slightly) positively correlated.
+Similarly there were differences in the influence (positive or negative) of
+unemployment.
+
+```{r, eval=TRUE}
 knitr::include_graphics('visuals/correlations1_mercer.png')
 knitr::include_graphics('visuals/correlations1_numbeo.png')
 knitr::include_graphics('visuals/correlations1_un_prosperity.png')
 ```
-This shows, that the indizes put different weights on the provided attributes.
+This shows that the indizes put different weights on the provided attributes.
 
 ## Correlation of City QoL Rankings with Country QoL Rankings
 
-We compared every City QoL Ranking with Human Development Index as well as with Numbeo. The highest correlation was found between UN Prosperty and Human Development Index:
+We compared every City QoL Ranking with Human Development Index as well as with Numbeo. The highest correlation was found between UN Prosperty and Human Development Index (HDI),
+with a correlation of 0.927 (using Spearman's rank correlation coefficient).
+Since both indices are created by UN agencies this high value is not surprising.
+When looking at Numbeo's _City Ranking_ in correlation with the HDI _Country Ranking_
+we still found a correlation of 0.748 based on Spearman.
 
-```{r, out.width="60%"}
+```{r, eval=FALSE}
 knitr::include_graphics('visuals/cities_vs_countries_best.png')
 ```
 
 ## Determining Factors for City QoL
 
-```{r, out.width="80%"}
-knitr::include_graphics('visuals/CorrelationOfRankingsIn2020WithOutliers.png')
-```
+We identified the following positive factors (ordered by relevance) for the
+Quality of Living on city level:
 
+* _Purchasing Power,_ _Cost of Living_, _Health Care_ and _Safety._ 
+
+The following factors _reduce_ the quality of living:
+
+* _Pollution,_ _Traffic Commute Time_ and _Property Price to Income Ratio._
+
+We did not find a significant influence of _climate_ on the quality of living.
 
 ## Correlation of Cost of Living with other city-characteristics. 
 
 Purchasing Power and Healthcare are indicators that the cost of living will also be high. 
-```{r, out.width="100%"}
+```{r, eval=TRUE}
 knitr::include_graphics('visuals/CostOfLivingCorrelationIn2020.png')
 ```
 
-Pollution, inefficient traffic, and a high property-price-to-income-ratio (pptir) reduce the cost of living index. 
+Pollution, inefficient traffic, and a high property-price-to-income-ratio (pptir)
+correlate negatively with the cost of living index. 
 
-```{r, out.width="100%"}
+```{r, eval=FALSE}
 knitr::include_graphics('visuals/CostOfLivingCorrelationIn2020NegativeInfluencers.png')
 ```
 
-The pptir is an indication on how long an average family has to work to buy an average property(house/flat) in a city. It is interesting to see that there is a negative correlation between this indicator and the cost of. 
-It may seem counterintuitive that it is easier to buy a house when the cost of living is higher.
+The _pptir_ is an indication on how long an average family has to work to buy
+an average property(house/flat) in a city.
+It is interesting to see that there is a _negative_ correlation between this
+indicator and the cost of living. 
+It may seem counterintuitive that it is easier to buy a house when
+the cost of living is higher.
+Our interpretation was that areas with higher cost of living usually correlate with
+higher income, therefore reducing the _pptir_ value.
